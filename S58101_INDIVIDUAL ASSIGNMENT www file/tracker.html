@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="stylesheet" href="js/jquery-3.2.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+
+        <style>
+            .jumbotron{
+                padding-left: 10%;
+                padding-right: 10%;
+                background-color: #215bb8;
+                padding-top:7px;
+                padding-bottom:7px;
+                margin-bottom:0px;
+       
+            }
+
+            #featured{
+                background-color: #215bb8;
+                width:95%;
+                height:auto;
+                color:white;
+                font-weight: bolder;
+                font-size: x-large;
+                padding: 10px;
+            }
+
+
+            #order{
+                width:95%;
+                background-color: #215bb8;
+                height:auto;
+                color:white;
+                font-weight: bolder;
+                font-size: x-large;
+                padding: 10px;
+                margin:auto;
+            }
+
+            form input{
+                margin-bottom: 1%;
+                margin-top: 1%;
+                border: none;
+                border-bottom: 1px solid grey;
+                background-color: #DCDCDC;
+                border-radius: 5px 5px 0 0;
+                padding:8px;
+            }
+
+            #frm{
+                width:95%;
+                margin:auto;
+            }
+
+            #btn{
+                width:100%;
+                height:50px;
+                font-size:x-large;
+                font-weight: bolder;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="row" style="margin-bottom: 0; padding-bottom: 0%;">
+            <div class="jumbotron">
+                <div class="container">
+                    <div class="col-xs-4">
+                        <a href="#"><span class="glyphicon glyphicon-menu-hamburger" style="font-size: 30px; color:white; float: left;"></span></a>
+                    </div>
+                    <div class="col-xs-4">
+                        <img id="logo" src="img/domino logo.png" alt="Domino Logo" width="40px" height="40px" style="margin-left: 50%; margin-right:50%;">
+                    </div>
+                    <div class="col-xs-4">
+                        <img src="img/cart.jpg" alt="cart" width="30px" height="30px" style="float:right;">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel panel-default">
+            <div class="container">
+              <div class="panel-body">
+                <div class="col-xs-6">
+                    <b><a href="index.html" style="font-size:large"><span class="glyphicon glyphicon-triangle-left" ></span>BACK</a></b>
+                </div>
+                <div class="col-xs-6" style="margin-bottom:0%">
+                    <b><a href="" style="float:right; font-size:large;">SIGN IN</a></b>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <div class="container">
+
+            <div class="text-center">
+
+                <div id="featured" class="container">
+                    WANT TO KNOW WHAT'S <br>HAPPENING WITH YOUR <br>ORDER RIGHT NOW?
+                </div>
+
+                <br>
+
+                The delivery experts at Domino's have <br>specifically engineered Domino's Tracker to <br>
+                keep you up to date on the status of your order from the moment it's prepared to the second it <br>
+                leaves our store for delivery.
+
+            </div>
+
+            <br><br><br><br><br><br><br>
+
+            <div class="panel panel-default">
+                <div id="order" class="panel panel-default">
+                    TRACK YOUR ORDER
+                </div>
+
+                <br>
+
+                <div id="frm">
+                    <form>
+                        <thead></thead>
+                        <tbody>
+                            <tr><td><span style="color:red">*</span>Phone #:</td></tr>
+                            <br>
+                            <tr><td><input type="text" required placeholder="e.g. 0123456789" style="width:150px"></td></tr>
+                            <br>
+                            <tr><td><input type="checkbox" required><span style="color:red"> *</span>I accept the <a href="">Terms and Conditions</a> and the 
+                                <a href="">Privacy Notice</a></td></tr>
+                            <br><BR>
+                            <button id="btn" type="submit" class="btn btn-danger">TRACK YOUR ORDER</button>    
+                        </tbody>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+        
+    </body>
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="stylesheet" href="js/jquery-3.2.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+
+        <style>
+            .jumbotron{
+                padding-left: 10%;
+                padding-right: 10%;
+                background-color: #215bb8;
+                padding-top:7px;
+                padding-bottom:7px;
+                margin-bottom:0px;
+       
+            }
+
+            table.borderless td,table.borderless th{
+                border: none !important;
+                
+            }
+
+            #delivery{
+                margin:auto;
+                width:90%;
+                height: auto;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                padding:20px;
+            }
+
+            form input{
+                margin-bottom: 1%;
+                margin-top: 1%;
+                border: none;
+                border-bottom: 1px solid grey;
+                background-color: #DCDCDC;
+                border-radius: 5px 5px 0 0;
+                padding:8px;
+            }
+
+            form textarea{
+                margin-bottom: 1%;
+                margin-top: 1%;
+                border: none;
+                border-bottom: 1px solid grey;
+                background-color: #DCDCDC;
+                border-radius: 5px 5px 0 0;
+                padding:8px;
+                resize: none;
+                width:95%;
+                height:170px;
+            }
+
+            #btn{
+                width:150px;
+                height:50px;
+                font-size:large;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="row" style="margin-bottom: 0; padding-bottom: 0%;">
+            <div class="jumbotron">
+                <div class="container">
+                    <div class="col-xs-4">
+                        <a href="#"><span class="glyphicon glyphicon-menu-hamburger" style="font-size: 30px; color:white; float: left;"></span></a>
+                    </div>
+                    <div class="col-xs-4">
+                        <img id="logo" src="img/domino logo.png" alt="Domino Logo" width="40px" height="40px" style="margin-left: 50%; margin-right:50%;">
+                    </div>
+                    <div class="col-xs-4">
+                        <img src="img/cart.jpg" alt="cart" width="30px" height="30px" style="float:right;">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel panel-default" style="margin-bottom:0%">
+            <div class="container">
+              <div class="panel-body">
+                <div class="col-xs-6">
+                    <b><a href="index.html" style="font-size:large"><span class="glyphicon glyphicon-triangle-left" ></span>BACK</a></b>
+                </div>
+                <div class="col-xs-6">
+                    <b><a href="" style="float:right; font-size:large;">SIGN IN</a></b>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <div id="delivery" style="margin-top:0%; padding-top: 0%;">
+            <table class="table borderless"></table>
+            <form action="menu.html" style="margin-top:0%; padding-top: 0%;">
+                
+                    <thead></thead>
+                    <tbody>
+                        <tr><td><span style="color:red">*</span>Unit No:</td></tr>
+                        <br>
+                        <tr><td><input type="text" required></td></tr>
+                        <br><br>
+                        <tr><td><span style="color:red">*</span>Address:</td></tr>   
+                        <br>
+                        <tr><td><input type="text" required placeholder="Kuala Terengganu, Terengganu" style="width:100%"></td></tr>     
+                        <br>             
+                        <tr><td style="font-size:smaller">Need to change your address? <a href="">Click here.</a></td></tr>
+                        <br><br>
+                        <tr><td>Complex/Building Name:</td></tr>
+                        <br>
+                        <tr><td><input type="text" style="width:100%"></td></tr>
+                        <br><br>
+                        <tr><td>Delivery Instructions:</td></tr>
+                        <br>
+                        <tr><td><textarea id="txtarea" rows="4" cols="50"></textarea></td></tr>
+                        <br>
+                        <tr><td style="font-size:smaller">Example:Gate code,ring the door bell,etc.</td></tr>
+                        <br><br>
+                        <tr><td style="font-size:smaller"><span style="color:red">*</span>Indicates required field.</td></tr>
+                        <br><br>
+                        <div class="container text-center">
+                            <button id="btn" type="submit" class="btn btn-danger">CONTINUE</button>
+                        </div>
+                        
+                    </tbody>
+            </form>
+            </table>
+           
+        </div>
+
+    </body>
+</html>
