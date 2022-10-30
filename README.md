@@ -1,7 +1,7 @@
 # Domino Pizza's Based Mobile Application
 
 # Description
-This project consists of the Domino Pizza's based mobile application user interfaces (Front-end) which look similar to the official application. It includes pages such as home page, menu page, delivery information page and etc. 
+This project consists of the Domino Pizza's based mobile application user interfaces (Front-end) which look similar to the official application. It includes pages such as home page, menu page, delivery information page and etc. The languages and frameworks used are HTML, CSS, JavaScript, Bootstrap and Cordova.
 
 # Overview
 Home Page:
